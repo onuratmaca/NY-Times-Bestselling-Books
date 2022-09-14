@@ -21,10 +21,14 @@ class BestSellerBook {
     var author: String? = null
 
     //TODO bookImageUrl
+    @SerializedName("book_image")
+    var bookImageUrl: String? = null // its maybe a String so we put ? and assign it to null
 
 
     //TODO description
-
+    @SerializedName("description")
+    var description: String? = null
 
     //TODO-STRETCH-GOALS amazonUrl
+    //TODO this @serializedName "amazon_product_url" and create a variable and assign
 }
